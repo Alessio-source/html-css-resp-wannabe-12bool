@@ -129,3 +129,16 @@
   margin-left: calc((100% / 12) * 11);
 }
 /* /offset */
+
+/* smartphone */
+@media screen and (max-width: 768px) {
+
+  /* full width */
+  .col-xs-full {
+    width: calc((100% / 12) * 12);
+    margin-left: 0;
+  }
+  /* full width */
+
+}
+/* smartphone */
