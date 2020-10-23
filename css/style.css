@@ -1,0 +1,42 @@
+body {
+  font-size: 18px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 100px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.col-3,
+.col-4,
+.col-8 {
+  text-align: center;
+}
+
+.col-3 img,
+.col-4 img {
+  height: 200px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.col-8 {
+  border-bottom: 1px solid grey;
+}
+
+.col-8 img {
+  background-color: #428bca;
+  height: 250px;
+  padding: 20px;
+  margin-top: 150px;
+  border-radius: 50%;
+}
+
+.col-8 p {
+  margin-bottom: 10px;
+}
