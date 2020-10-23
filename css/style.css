@@ -40,3 +40,20 @@ h3 {
 .col-8 p {
   margin-bottom: 10px;
 }
+
+/* ipad, ipad pro, tablet */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  section:nth-child(3) .col-md-4 {
+    padding: 20px;
+  }
+}
+/* /ipad, ipad pro, tablet */
+
+/* smartphone */
+@media screen and (max-width: 768px) {
+  section:nth-child(1),
+  section:nth-child(3) {
+    background-color: lightyellow;
+  }
+}
+/* smartphone */
